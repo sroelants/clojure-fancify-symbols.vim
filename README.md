@@ -39,7 +39,7 @@ $ git clone https://github.com/Raimondi/delimitMate.git
 `g:no_clojure_fancify` to 1 or 0 respectively.
 
 A couple of extended ligatures can be turned on by setting
-`g:clojure_fancify_extenden=1`, if you're into that kind of thing:
+`g:clojure_fancify_extended=1`, if you're into that kind of thing:
 
 - Thread first macro `->` is replaced by `→`.
 - Thread last macro `->>` is replaced by `↠`.
