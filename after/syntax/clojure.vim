@@ -40,10 +40,10 @@ syntax match clojureConcealLambda /\v#\{/me=e-1 conceal cchar=∈
 
 
 if exists('g:clojure_fancify_extended')
-syntax match cljOperator "->" conceal cchar=→
-syntax match cljOperator "->>" conceal cchar=↠
-syntax match cljOperator "<=\ze[^<]" conceal cchar=≤
-syntax match cljOperator ">=\ze[^>]" conceal cchar=≥
+  syntax keyword cljOperator -> conceal cchar=→
+  syntax keyword cljOperator ->> conceal cchar=↠
+  syntax keyword cljOperator <= conceal cchar=≤
+  syntax keyword cljOperator >= conceal cchar=≥
 endif
 
 hi link cljOperator Operator
